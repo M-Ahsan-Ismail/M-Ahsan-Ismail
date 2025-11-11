@@ -1,544 +1,194 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahsan Ismail - Odoo Developer</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<div align="center">
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            color: #fff;
-            overflow: hidden;
-            height: 100vh;
-            position: relative;
-        }
+<!-- Animated Waving Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=AHSAN%20ISMAIL&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Odoo%2016%20Expert%20%E2%80%A2%20Portal%20%26%20XML%20Specialist%20%E2%80%A2%20ERP%20Architect&descSize=20&descAlignY=55"/>
 
-        /* Animated Background Particles */
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            pointer-events: none;
-        }
+<!-- Typing SVG Animation -->
+<a href="https://github.com/ahsan-ismail"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=60&lines=Crafting+Enterprise+Solutions+%F0%9F%9A%80;Portal+Development+Expert+%F0%9F%8E%AF;XML+Reporting+Specialist+%F0%9F%93%8A;ERP+Solutions+Architect+%F0%9F%92%BC" alt="Typing SVG"/></a>
 
-        .particle {
-            position: absolute;
-            width: 3px;
-            height: 3px;
-            background: rgba(108, 99, 255, 0.6);
-            border-radius: 50%;
-            animation: float 15s infinite ease-in-out;
-            box-shadow: 0 0 10px rgba(108, 99, 255, 0.8);
-        }
+<br/>
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
-        }
+<!-- Shields with Glow Effect -->
+<p>
+<img src="https://img.shields.io/badge/Odoo-16-714B67?style=for-the-badge&logo=odoo&logoColor=white&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Location-Pakistan%20%F0%9F%87%B5%F0%9F%87%B0-25D366?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Status-Available-00C853?style=for-the-badge&labelColor=1a1a2e"/>
+</p>
 
-        /* Glass Container */
-        .container {
-            position: relative;
-            z-index: 2;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 40px;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+<!-- Social Buttons with Icons -->
+<p>
+<a href="https://ahsan-developer.netlify.app"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-Visit_Now-6C63FF?style=for-the-badge&labelColor=000000"/></a>
+<a href="https://linkedin.com/in/ahsan-ismail-4b4763281/"><img src="https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-Connect-0077B5?style=for-the-badge&labelColor=000000"/></a>
+<a href="tel:+923180690159"><img src="https://img.shields.io/badge/%F0%9F%93%B1_Call-+92%20318%200690159-25D366?style=for-the-badge&labelColor=000000"/></a>
+</p>
 
-        /* Header Section */
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            animation: fadeInDown 1s ease;
-        }
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-        .name {
-            font-size: 4rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-shadow: 0 0 30px rgba(102, 126, 234, 0.5);
-            margin-bottom: 10px;
-            letter-spacing: 2px;
-        }
+<br/>
 
-        .tagline {
-            font-size: 1.5rem;
-            color: #a0aec0;
-            font-weight: 300;
-            letter-spacing: 3px;
-        }
+<!-- Main Content Grid -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-        .typing-container {
-            height: 30px;
-            margin-top: 15px;
-        }
+<!-- EXPERTISE SECTION -->
+<img align="left" height="150" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
-        .typing {
-            color: #6c63ff;
-            font-size: 1.2rem;
-            font-weight: 600;
-            border-right: 2px solid #6c63ff;
-            white-space: nowrap;
-            overflow: hidden;
-            display: inline-block;
-            animation: blink 0.7s step-end infinite;
-        }
+### 💎 CORE EXPERTISE
 
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
+<br/>
 
-        /* Main Grid */
-        .main-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-bottom: 30px;
-        }
+**🎯 Portal Development**
+Custom dashboards • Auth systems • Real-time UX
 
-        /* Glass Card */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            transition: all 0.3s ease;
-            animation: fadeInUp 1s ease;
-        }
+**📊 XML Reporting**  
+QWeb templates • PDF generation • Business intelligence
 
-        .glass-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 48px 0 rgba(108, 99, 255, 0.4);
-            border-color: rgba(108, 99, 255, 0.3);
-        }
+**⚙️ Custom Modules**  
+Tailored logic • Workflows • Business automation
 
-        .card-title {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            color: #6c63ff;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+**🔗 Integration**  
+REST APIs • Third-party systems • Seamless sync
 
-        .icon {
-            width: 30px;
-            height: 30px;
-            filter: drop-shadow(0 0 5px rgba(108, 99, 255, 0.5));
-        }
+<br/>
 
-        /* Skills Grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-        }
+### 🛠️ TECH ARSENAL
 
-        .skill-item {
-            background: linear-gradient(135deg, rgba(108, 99, 255, 0.2), rgba(118, 75, 162, 0.2));
-            padding: 15px;
-            border-radius: 12px;
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(108, 99, 255, 0.3);
-            cursor: pointer;
-        }
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo_16-714B67?style=flat-square&logo=odoo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-        .skill-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(108, 99, 255, 0.6);
-            background: linear-gradient(135deg, rgba(108, 99, 255, 0.4), rgba(118, 75, 162, 0.4));
-        }
+![XML](https://img.shields.io/badge/XML-E34F26?style=flat-square&logoColor=white)
+![QWeb](https://img.shields.io/badge/QWeb-714B67?style=flat-square&logo=odoo&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-        .skill-name {
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-top: 8px;
-        }
+<br/>
 
-        /* Services Grid */
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-        }
+### 🎨 DEVELOPMENT PHILOSOPHY
 
-        .service-item {
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
-            padding: 20px;
-            border-radius: 12px;
-            border-left: 4px solid #6c63ff;
-            transition: all 0.3s ease;
-        }
+```python
+class OdooDeveloper:
+    def __init__(self):
+        self.expertise = "Odoo 16"
+        self.focus = ["Portal", "XML Reports"]
+        self.approach = "Clean Code"
+    
+    def deliver(self):
+        return "Enterprise Solutions"
+```
 
-        .service-item:hover {
-            border-left-width: 8px;
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
-            transform: translateX(5px);
-        }
+</td>
+<td width="50%" valign="top">
 
-        .service-title {
-            font-size: 1.1rem;
-            color: #667eea;
-            margin-bottom: 8px;
-            font-weight: 700;
-        }
+<!-- SERVICES SECTION -->
+<img align="right" height="150" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"/>
 
-        .service-desc {
-            font-size: 0.85rem;
-            color: #a0aec0;
-            line-height: 1.5;
-        }
+### 🚀 WHAT I DELIVER
 
-        /* Stats */
-        .stats-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
+<br/>
 
-        .stat-item {
-            text-align: center;
-        }
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://img.icons8.com/fluency/96/module.png" width="50"/><br/>
+<b>Custom Modules</b><br/>
+<sub>Business-specific solutions</sub>
+</td>
+<td align="center" width="50%">
+<img src="https://img.icons8.com/fluency/96/web-design.png" width="50"/><br/>
+<b>Portal Magic</b><br/>
+<sub>Seamless user experiences</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="https://img.icons8.com/fluency/96/combo-chart.png" width="50"/><br/>
+<b>XML Reports</b><br/>
+<sub>Pixel-perfect documents</sub>
+</td>
+<td align="center" width="50%">
+<img src="https://img.icons8.com/fluency/96/api.png" width="50"/><br/>
+<b>Integration</b><br/>
+<sub>Connect everything</sub>
+</td>
+</tr>
+</table>
 
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+<br/>
 
-        .stat-label {
-            font-size: 0.9rem;
-            color: #a0aec0;
-            margin-top: 5px;
-        }
+### 📈 GITHUB STATS
 
-        /* Contact Section */
-        .contact-section {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            animation: fadeInUp 1.2s ease;
-        }
+<p align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF"/>
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF"/>
+</p>
 
-        .contact-btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 15px 35px;
-            border-radius: 50px;
-            text-decoration: none;
-            color: #fff;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(108, 99, 255, 0.4);
-            border: 2px solid transparent;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+<p align="center">
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF"/>
+</p>
 
-        .contact-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(108, 99, 255, 0.6);
-            border-color: rgba(255, 255, 255, 0.3);
-        }
+### 🏆 ACHIEVEMENTS
 
-        /* Animations */
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15"/>
+</p>
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+</td>
+</tr>
+</table>
 
-        /* Location Badge */
-        .location-badge {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 10px 20px;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            font-size: 0.9rem;
-            color: #a0aec0;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+<br/>
 
-        /* Glow Effect */
-        .glow {
-            position: fixed;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(108, 99, 255, 0.3), transparent);
-            border-radius: 50%;
-            pointer-events: none;
-            filter: blur(80px);
-            z-index: 0;
-            animation: moveGlow 10s infinite ease-in-out;
-        }
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
 
-        @keyframes moveGlow {
-            0%, 100% { transform: translate(0, 0); }
-            50% { transform: translate(100px, 100px); }
-        }
-    </style>
-</head>
-<body>
-    <!-- Animated Background -->
-    <div class="particles" id="particles"></div>
-    <div class="glow" style="top: -200px; left: -200px;"></div>
-    <div class="glow" style="bottom: -200px; right: -200px; animation-delay: 5s;"></div>
+<!-- HIGHLIGHTS BANNER -->
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/48/code.png"/><br/>
+<b>Clean Code</b><br/>
+<sub>Best Practices</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/48/security-checked.png"/><br/>
+<b>Security First</b><br/>
+<sub>Data Protection</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/48/speed.png"/><br/>
+<b>Performance</b><br/>
+<sub>Optimized Solutions</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/48/maintenance.png"/><br/>
+<b>Maintainable</b><br/>
+<sub>Future-Proof Code</sub>
+</td>
+</tr>
+</table>
 
-    <!-- Location Badge -->
-    <div class="location-badge">
-        🇵🇰 Pakistan • Available for Projects
-    </div>
+<br/>
 
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <h1 class="name">AHSAN ISMAIL</h1>
-            <p class="tagline">ODOO DEVELOPER • ERP ARCHITECT</p>
-            <div class="typing-container">
-                <span class="typing" id="typing-text"></span>
-            </div>
-        </div>
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF&area=true&hide_border=true" width="100%"/>
 
-        <!-- Main Grid -->
-        <div class="main-grid">
-            <!-- Left Column -->
-            <div>
-                <!-- Skills Card -->
-                <div class="glass-card">
-                    <h3 class="card-title">
-                        <span>⚡</span> Technology Stack
-                    </h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="icon">🔷</div>
-                            <div class="skill-name">Odoo 16</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">🐍</div>
-                            <div class="skill-name">Python</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">🐘</div>
-                            <div class="skill-name">PostgreSQL</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">⚙️</div>
-                            <div class="skill-name">QWeb</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">📄</div>
-                            <div class="skill-name">XML</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">🌐</div>
-                            <div class="skill-name">JavaScript</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">🔗</div>
-                            <div class="skill-name">REST API</div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="icon">🔧</div>
-                            <div class="skill-name">Git</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<br/><br/>
 
-            <!-- Right Column -->
-            <div>
-                <!-- Services Card -->
-                <div class="glass-card">
-                    <h3 class="card-title">
-                        <span>🎯</span> Core Expertise
-                    </h3>
-                    <div class="services-grid">
-                        <div class="service-item">
-                            <div class="service-title">Portal Development</div>
-                            <div class="service-desc">Custom portals, dashboards, authentication & UX</div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-title">XML Reporting</div>
-                            <div class="service-desc">QWeb templates, PDF generation & layouts</div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-title">Custom Modules</div>
-                            <div class="service-desc">Tailored business logic & workflows</div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-title">Integration</div>
-                            <div class="service-desc">Third-party APIs & automation</div>
-                        </div>
-                    </div>
-                    <div class="stats-container">
-                        <div class="stat-item">
-                            <div class="stat-number">16</div>
-                            <div class="stat-label">Odoo Version</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">Dedication</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">24/7</div>
-                            <div class="stat-label">Support</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- FOOTER SECTION -->
+### 💬 LET'S BUILD SOMETHING AMAZING
 
-        <!-- Contact Section -->
-        <div class="contact-section">
-            <a href="https://ahsan-developer.netlify.app" class="contact-btn">
-                <span>🌐</span> Portfolio
-            </a>
-            <a href="https://linkedin.com/in/ahsan-ismail-4b4763281/" class="contact-btn">
-                <span>💼</span> LinkedIn
-            </a>
-            <a href="tel:+923180690159" class="contact-btn">
-                <span>📱</span> +92 318 0690159
-            </a>
-        </div>
-    </div>
+**Available for freelance projects • Consultations • Full-time opportunities**
 
-    <script>
-        // Typing Effect
-        const texts = [
-            "Odoo 16 Expert 🚀",
-            "Portal Specialist 🎯",
-            "XML Reporting Master 📊",
-            "ERP Solutions Architect 💼"
-        ];
-        let textIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typingElement = document.getElementById('typing-text');
+<br/>
 
-        function type() {
-            const currentText = texts[textIndex];
-            
-            if (isDeleting) {
-                typingElement.textContent = currentText.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typingElement.textContent = currentText.substring(0, charIndex + 1);
-                charIndex++;
-            }
+<!-- Visitor Counter -->
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=6C63FF&style=for-the-badge"/>
 
-            if (!isDeleting && charIndex === currentText.length) {
-                setTimeout(() => isDeleting = true, 2000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                textIndex = (textIndex + 1) % texts.length;
-            }
+<br/><br/>
 
-            const speed = isDeleting ? 50 : 100;
-            setTimeout(type, speed);
-        }
+<!-- Footer Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,11,20&section=footer"/>
 
-        type();
-
-        // Create Particles
-        const particlesContainer = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.animationDelay = Math.random() * 15 + 's';
-            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            particlesContainer.appendChild(particle);
-        }
-
-        // Mouse Move Glow Effect
-        document.addEventListener('mousemove', (e) => {
-            const glows = document.querySelectorAll('.glow');
-            glows[0].style.left = (e.clientX - 300) + 'px';
-            glows[0].style.top = (e.clientY - 300) + 'px';
-        });
-
-        // Skill Items Interactive
-        const skillItems = document.querySelectorAll('.skill-item');
-        skillItems.forEach(item => {
-            item.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.1) rotate(5deg)';
-            });
-            item.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1) rotate(0deg)';
-            });
-        });
-
-        // Smooth Counter Animation for Stats
-        function animateCounter(element, target) {
-            let current = 0;
-            const increment = target / 50;
-            const timer = setInterval(() => {
-                current += increment;
-                if (current >= target) {
-                    element.textContent = target;
-                    clearInterval(timer);
-                } else {
-                    element.textContent = Math.floor(current);
-                }
-            }, 30);
-        }
-
-        // Initialize counters on load
-        window.addEventListener('load', () => {
-            const statNumbers = document.querySelectorAll('.stat-number');
-            animateCounter(statNumbers[0], 16);
-            animateCounter(statNumbers[1], 100);
-        });
-    </script>
-</body>
-</html>
+</div>
