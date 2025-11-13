@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Header with Gradient -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=6,11,20&text=AHSAN%20ISMAIL&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Odoo%20Expert%20•%20Portal%20Specialist%20•%20ERP%20Architect&descSize=18&descAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:714B67,100:8F8F8F&text=AHSAN%20ISMAIL&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Odoo%20Expert%20•%20Portal%20Specialist%20•%20ERP%20Architect&descSize=18&descAlignY=55" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2000&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Crafting+Enterprise+Solutions+%F0%9F%9A%80;Portal+Development+Expert+%F0%9F%8E%AF;XML+Reporting+Specialist+%F0%9F%93%8A" alt="Typing SVG" /></a>
